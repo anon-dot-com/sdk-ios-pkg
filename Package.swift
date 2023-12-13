@@ -22,7 +22,7 @@ let package = Package(
         .binaryTarget(
             name: "AnonKit", 
             url: "https://dl.cloudsmith.io/bFQP6zY5UO2hAJGx/anon/anon-sdk/raw/names/AnonKit.xcframework/versions/0.1.0/AnonKit.xcframework.zip",
-            checksum: "72265f0dd59e117b83d9d4f69d015ea6cb61df0f679843a227189b3465eff155"
+            checksum: "21de65e74d0c9a8ee5b14f56422e15180d7b55e53807a4bacdb34990c91a8f6b"
         ),
         .testTarget(
             name: "AnonKitPkgTests",
