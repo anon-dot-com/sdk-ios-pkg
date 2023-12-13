@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "AnonKitPkg",
     platforms: [
-        .iOS(.v15),
+        .iOS(.v16),
     ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
@@ -22,7 +22,7 @@ let package = Package(
         .binaryTarget(
             name: "AnonKit", 
             url: "https://dl.cloudsmith.io/bFQP6zY5UO2hAJGx/anon/anon-sdk/raw/names/AnonKit.xcframework/versions/0.1.0/AnonKit.xcframework.zip",
-            checksum: "21de65e74d0c9a8ee5b14f56422e15180d7b55e53807a4bacdb34990c91a8f6b"
+            checksum: "df30ba3956e09e06079c3e3e04d8a2dcfb7bc766ce51673b2ae4426721e2f801"
         ),
         .testTarget(
             name: "AnonKitPkgTests",
