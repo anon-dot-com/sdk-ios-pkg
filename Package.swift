@@ -14,6 +14,9 @@ let package = Package(
             name: "AnonKit",
             targets: ["AnonKit"]),
     ],
+    dependencies: [
+        .package(url: "https://github.com/auth0/JWTDecode.swift", .upToNextMajor(from: "4.0.0")),
+    ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
@@ -21,8 +24,8 @@ let package = Package(
         // .binaryTarget(name: "AnonKit", path: "./Sources/AnonKit.xcframework"),
         .binaryTarget(
             name: "AnonKit", 
-            url: "https://dl.cloudsmith.io/bFQP6zY5UO2hAJGx/anon/anon-sdk/raw/names/AnonKit.xcframework/versions/0.1.1/AnonKit.xcframework.zip",
-            checksum: "7824859308498f0f9a24a373e424966b8b6edb5c65764778ac04b03919c1cb2a"
+            url: "https://dl.cloudsmith.io/bFQP6zY5UO2hAJGx/anon/anon-sdk/raw/names/AnonKit.xcframework/versions/0.1.2/AnonKit.xcframework.zip",
+            checksum: "e65fe136b09191624c4cf2df8e443e7e80acc49a9b0a238b3a28bf70d47eb615"
         ),
         .testTarget(
             name: "AnonKitPkgTests",
