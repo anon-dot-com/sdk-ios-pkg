@@ -24,8 +24,8 @@ let package = Package(
         // .binaryTarget(name: "AnonKit", path: "./Sources/AnonKit.xcframework"),
         .binaryTarget(
             name: "AnonKit", 
-            url: "https://dl.cloudsmith.io/bFQP6zY5UO2hAJGx/anon/anon-sdk/raw/names/AnonKit.xcframework/versions/0.1.3/AnonKit.xcframework.zip",
-            checksum: "920894958533ba0a6426b8030dfd2ad2cdc9897c7eba995105be93f08c82633c"
+            url: "https://dl.cloudsmith.io/bFQP6zY5UO2hAJGx/anon/anon-sdk/raw/names/AnonKit.xcframework/versions/0.1.4/AnonKit.xcframework.zip",
+            checksum: "d85823761c30570f604967971289627af95899b0490e6fa5387e75eb9f23798d"
         ),
         .testTarget(
             name: "AnonKitPkgTests",
