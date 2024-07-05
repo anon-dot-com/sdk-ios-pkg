@@ -2,7 +2,8 @@
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
-
+let version = "0.3.3"
+let checksum = "1a83b30b9441a7724c5698ee9f3e6fa6419676be7272af4cd1398637d6213a7c"
 let package = Package(
     name: "AnonKitPkg",
     platforms: [
@@ -24,8 +25,8 @@ let package = Package(
         // .binaryTarget(name: "AnonKit", path: "./Sources/AnonKit.xcframework"),
         .binaryTarget(
             name: "AnonKit", 
-            url: "https://dl.cloudsmith.io/bFQP6zY5UO2hAJGx/anon/anon-sdk/raw/names/AnonKit.xcframework/versions/0.3.2/AnonKit.xcframework.zip",
-            checksum: "7ce3197d84c8469441fe90936d9020fd3d9bcb8c61b842fa19ec22f674b2f3ac"
+            url: "https://dl.cloudsmith.io/bFQP6zY5UO2hAJGx/anon/anon-sdk/raw/names/AnonKit.xcframework/versions/\(version)/AnonKit.xcframework.zip",
+            checksum: checksum
         ),
         .testTarget(
             name: "AnonKitPkgTests",
