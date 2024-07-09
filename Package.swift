@@ -2,8 +2,9 @@
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
-let version = "0.3.3"
-let checksum = "1a83b30b9441a7724c5698ee9f3e6fa6419676be7272af4cd1398637d6213a7c"
+
+let version = "0.3.4"
+let checksum = "4f6c5e86458b7e386280f488401f6a9d79ddedb66267d504d688a7c0dae67649"
 let package = Package(
     name: "AnonKitPkg",
     platforms: [
