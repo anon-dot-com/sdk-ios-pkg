@@ -4,7 +4,7 @@
 import PackageDescription
 
 let version = "0.3.5"
-let checksum = "de66218b64975c54f7bb45eeaedf2c74eaeb5509872f6969fbc39660be3fc895"
+let checksum = "94623789c372042bdc1fe2763123e3dd204de7762e3c8aa879778677a4b4e904"
 let package = Package(
     name: "AnonKitPkg",
     platforms: [
