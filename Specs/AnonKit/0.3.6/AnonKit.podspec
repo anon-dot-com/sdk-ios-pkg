@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author              = { 'Anonymity Labs' => 'dev@team.anon.com' }
   s.platforms           = { :ios => '16.0' }
   s.swift_version       = ['5.9', '5.10']
-  s.source              = { :http => 'https://dl.cloudsmith.io/bFQP6zY5UO2hAJGx/anon/anon-sdk/raw/names/AnonKit.xcframework/versions/0.3.6/AnonKit.xcframework.zip' }
+  s.source              = { :http => 'https://dl.cloudsmith.io/4GEEbXtn1Z9TOSLs/anon/anon-sdk/raw/names/AnonKit.xcframework/versions/0.3.6/AnonKit.xcframework.zip' }
   s.vendored_frameworks = 'AnonKit.xcframework'
 
   s.dependency 'JWTDecode', '~> 3.1'
